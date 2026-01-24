@@ -1,15 +1,5 @@
 # Atlantic-Eq Mode Study
 
----
-
-<div style="
-background-color:#f7f7f7;
-border-left:5px solid #444;
-padding:14px;
-border-radius:4px;
-">
-Las keys indican que palabra clave esta asociada a cada dato según cada base de datos, vemos que son diferentes en el primer caso por lo que crearemos una funcion que sepa leerlo bien.
-</div>
 
 
 ---
@@ -45,20 +35,10 @@ En longitud, las diferencias son más relevantes:
 <b>HadISST</b> utiliza una convención centrada en el meridiano de Greenwich, con longitudes comprendidas
 entre −179.5° y 179.5°, ordenadas de oeste a este:
 
-<div style="font-family: monospace; font-size:13px; width:420px; margin:10px auto;">
-<span style="display:block; text-align:center;">−180°&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0°&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;180°</span>
-<span style="display:block; text-align:center;">│────────────────────│────────────────────│</span>
-<span style="display:block; text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Greenwich</span>
-</div
 
 <b>ERSST</b>, en cambio, emplea una convención de 0° a 358°, también ordenada de oeste a este, donde el
 meridiano de Greenwich corresponde a 0° y 360° representa de nuevo el mismo meridiano:
 
-<div style="font-family: monospace; font-size:13px; width:420px; margin:10px auto;">
-<span style="display:block; text-align:right;">0°&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;180°&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;360° (= 0°)</span>
-<span style="display:block; text-align:center;">│────────────────────│─────────────────────│</span>
-<span style="display:block; text-align:right;">Greenwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Océano&nbsp;Pacífico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Greenwich</span>
-</div>
 
 En el caso de <b>HadISST</b>, la interpretación de la longitud resulta directa.
 Sin embargo, en <b>ERSST</b> es fundamental tener en cuenta que el valor 0° corresponde al meridiano
