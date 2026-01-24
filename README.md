@@ -696,7 +696,7 @@ tal como se ha discutido en apartados anteriores.
 
 En el caso del <b>Niño Atlántico</b>, al tratarse de un fenómeno menos persistente e intenso,
 se considera suficiente que se registren <b>al menos tres meses consecutivos</b> con anomalías
-superiores a <b>0.4 °C</b> en la región <b>ATL3</b>.
+superiores a <b>0.4 °C</b> en la región <b>ATL3</b> en el verano.
 <br><br>
 
 Dado que no es necesario el uso de medias móviles trimestrales, la representación de las
