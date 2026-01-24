@@ -889,26 +889,24 @@ Por este motivo, se procederá a calcular una nueva selección de eventos de Atl
   </li>
 </ul>
 
-La selección de años del <strong>Pacific Niño</strong> apenas se modifica, reflejando la
-<strong>robustez del criterio original</strong> para este evento. Dicha robustez está
-directamente relacionada con el <strong>carácter altamente influyente</strong> del Niño
-Pacífico sobre la circulación atmosférica y la actividad climática a escala global:
-incluso sin seleccionar explícitamente los meses de máximo desarrollo, este fenómeno
-<strong>domina la señal climática de gran parte del año</strong>.
-Además, su <strong>elevada intensidad térmica</strong> hace que la identificación de los
-episodios sea poco sensible tanto al método de promediado como al
+La selección de años del <strong>Pacific Niño</strong> apenas se modifica, lo que pone de
+manifiesto la <strong>robustez del criterio original</strong> para este evento. Esta
+robustez se explica por el <strong>carácter altamente influyente, intenso e interanual</strong>
+del Niño Pacífico, cuyas anomalías dominan la señal climática a escala global durante gran
+parte del año. Como consecuencia, incluso al emplear medias anuales, la identificación de
+los episodios resulta poco sensible tanto al método de promediado como al
 <strong>incremento progresivo del nivel térmico medio asociado al cambio climático</strong>.
-Como resultado, únicamente se excluye el año <strong>1987</strong>, correspondiente al
-episodio menos canónico, y se incorpora el año <strong>1965</strong>.
+Únicamente se excluye el año <strong>1987</strong>, correspondiente al episodio menos canónico,
+y se incorpora el año <strong>1965</strong>.
 <br><br>
 
 Por el contrario, la selección de los años de <strong>Atlantic Niño</strong> cambia de forma
-sustancial, poniendo de manifiesto que la identificación basada en <strong>medias anuales</strong>
-no es adecuada para este fenómeno. Dada su <strong>menor intensidad</strong>,
+sustancial, confirmando que la identificación basada en <strong>medias anuales de SST</strong>
+no es adecuada para este fenómeno. Debido a su <strong>menor intensidad</strong>,
 <strong>duración más corta</strong> y <strong>carácter marcadamente estacional</strong>, el Atlantic
-Niño resulta mucho más sensible al método de selección, lo que confirma la necesidad de
-un <strong>enfoque estacional</strong> para identificar de forma físicamente consistente los
-episodios representativos.
+Niño es mucho más sensible al método de selección, lo que refuerza la necesidad de un
+<strong>enfoque estacional basado en anomalías</strong> para identificar episodios
+físicamente consistentes.
 
 </div>
 
