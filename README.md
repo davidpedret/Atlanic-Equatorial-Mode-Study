@@ -849,7 +849,7 @@ de duración al considerar meses de años consecutivos, no se satisface la
 <b>condición física</b> de que el evento se desarrolle durante los meses de verano.
 Por este motivo, el episodio <b>no se considera un evento de Atlantic Niño</b>.
 
-Vemos que la selección del <b>TOP5</b> de eventos de <b>Atlantic Niño</b> no ha identificado
+Vemos que la selección de eventos de <b>Atlantic Niño</b> no ha identificado
 años de estudio tan representativos como en el caso del <b>Pacific Niño</b>.
 Esto se debe a que la selección inicial se realizó a partir de
 <b>temperaturas medias</b> y no de <b>anomalías</b>, lo que introduce un sesgo hacia los años
@@ -866,28 +866,7 @@ Esto no ocurre en el <b>Atlantic Niño</b>, cuya señal es más débil, localiza
 estacional.
 <br><br>
 
-Por este motivo, se procederá a calcular un nuevo <b>TOP5 de eventos de Atlantic Niño</b>
-basado en las <b>anomalías de SST</b> durante los meses de mayor desarrollo del fenómeno,
-<b>junio–julio</b>, mientras que para el <b>Pacific Niño</b> se mantendrá el análisis en
-<b>noviembre–diciembre</b>.
-Este enfoque permitirá una identificación más consistente y físicamente representativa
-de los eventos en ambas regiones.
-
----
-
-<div style="
-background-color:#f7f7f7;
-border-left:5px solid #444;
-padding:14px;
-border-radius:4px;
-">
-
-<strong>Reformulación de la selección de años para el índice ATL3</strong><br><br>
-
-En esta sección se revisa el procedimiento de selección de los años representativos del
-índice <strong>ATL3</strong>, con el objetivo de identificar eventos físicamente coherentes
-con la definición del <strong>Atlantic Niño</strong>.
-La reformulación se basa en dos ajustes metodológicos complementarios.
+Por este motivo, se procederá a calcular una nueva selección de eventos de Atlantic Niño</b>, y esta nueva selección se basa en dos ajustes principales.
 <br><br>
 
 <ul>
@@ -910,12 +889,27 @@ La reformulación se basa en dos ajustes metodológicos complementarios.
   </li>
 </ul>
 
-Como consecuencia de esta reformulación, el <strong>TOP5 del Pacific Niño</strong> apenas se
-modifica, reflejando la robustez del criterio original: únicamente se excluye el año
-<strong>1987</strong>, justamente el episodio menos canonico, y se incorpora <strong>1965</strong>.
-Por el contrario, el <strong>TOP5 del Atlantic Niño</strong> cambia de forma sustancial,
-poniendo de manifiesto que la selección basada en medias anuales no era adecuada para este
-fenómeno y confirmando la necesidad de un enfoque estacional, aun que no salga en la tabla, vamos a investigar tambien el 1987 para el Atlantic Niño.
+La selección de años del <strong>Pacific Niño</strong> apenas se modifica, reflejando la
+<strong>robustez del criterio original</strong> para este evento. Dicha robustez está
+directamente relacionada con el <strong>carácter altamente influyente</strong> del Niño
+Pacífico sobre la circulación atmosférica y la actividad climática a escala global:
+incluso sin seleccionar explícitamente los meses de máximo desarrollo, este fenómeno
+<strong>domina la señal climática de gran parte del año</strong>.
+Además, su <strong>elevada intensidad térmica</strong> hace que la identificación de los
+episodios sea poco sensible tanto al método de promediado como al
+<strong>incremento progresivo del nivel térmico medio asociado al cambio climático</strong>.
+Como resultado, únicamente se excluye el año <strong>1987</strong>, correspondiente al
+episodio menos canónico, y se incorpora el año <strong>1965</strong>.
+<br><br>
+
+Por el contrario, la selección de los años de <strong>Atlantic Niño</strong> cambia de forma
+sustancial, poniendo de manifiesto que la identificación basada en <strong>medias anuales</strong>
+no es adecuada para este fenómeno. Dada su <strong>menor intensidad</strong>,
+<strong>duración más corta</strong> y <strong>carácter marcadamente estacional</strong>, el Atlantic
+Niño resulta mucho más sensible al método de selección, lo que confirma la necesidad de
+un <strong>enfoque estacional</strong> para identificar de forma físicamente consistente los
+episodios representativos.
+
 </div>
 
 
