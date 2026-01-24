@@ -1,47 +1,71 @@
-# Atlantic Equatorial Mode Study
+<div style="
+background-color:#f7f7f7;
+border-left:5px solid #444;
+padding:14px;
+border-radius:4px;
+">
 
-El **Atlantic Equatorial Mode**, también conocido como **Atlantic Niño**, es un patrón de
+<h1>Atlantic Equatorial Mode Study</h1>
+
+El <b>Atlantic Equatorial Mode</b>, también conocido como <b>Atlantic Niño</b>, es un patrón de
 variabilidad climática caracterizado por anomalías positivas de la temperatura superficial
-del mar (SST) en el Atlántico ecuatorial oriental. Aunque comparte ciertos mecanismos físicos
-con el **El Niño–Southern Oscillation (ENSO)** del Pacífico, el Atlantic Niño presenta una
-**menor intensidad**, una **duración más corta** y un **carácter marcadamente estacional y
-regional**.
+del mar (<b>SST</b>) en el Atlántico ecuatorial oriental. Aunque comparte ciertos mecanismos
+físicos con el <b>El Niño–Southern Oscillation (ENSO)</b> del Pacífico, el Atlantic Niño
+presenta una <b>menor intensidad</b>, una <b>duración más corta</b> y un
+<b>carácter marcadamente estacional y regional</b>.
+<br><br>
 
-Este estudio tiene como objetivo **caracterizar observacionalmente el Atlantic Niño** y
-compararlo de forma sistemática con el **Pacific Niño**, analizando sus diferencias en
+Este estudio tiene como objetivo <b>caracterizar observacionalmente el Atlantic Niño</b> y
+compararlo de forma sistemática con el <b>Pacific Niño</b>, analizando sus diferencias en
 estructura temporal, extensión espacial e impacto atmosférico. Para ello, se estudia la
-variabilidad mensual, la distribución espacial de las anomalías de SST y precipitación, y
-la relación entre ambos campos durante el período **1960–2020**.
+variabilidad mensual, la distribución espacial de las anomalías de <b>SST</b> y
+<b>precipitación</b>, y la relación entre ambos campos durante el período
+<b>1960–2020</b>.
+<br><br>
 
-Un aspecto central del trabajo es la **definición robusta de criterios de identificación
-de eventos**, prestando especial atención a la estacionalidad característica del Atlantic
-Niño y a su **independencia respecto al ENSO**. Dado que el calentamiento global introduce
-una tendencia de fondo en las series de SST, se emplea un enfoque basado en **anomalías
-estacionales**, evitando sesgos hacia años recientes y garantizando una interpretación
-físicamente consistente de los episodios detectados.
+Un aspecto central del trabajo es la <b>definición robusta de criterios de identificación
+de eventos</b>, prestando especial atención a la <b>estacionalidad característica</b> del
+Atlantic Niño y a su <b>independencia respecto al ENSO</b>. Dado que el calentamiento global
+introduce una tendencia de fondo en las series de SST, se adopta un enfoque basado en
+<b>anomalías estacionales</b>, evitando sesgos hacia años recientes y garantizando una
+interpretación físicamente consistente de los episodios detectados.
+<br><br>
 
 El análisis combina múltiples bases de datos observacionales y de reanálisis, permitiendo
-evaluar la **robustez de los resultados** frente a diferencias metodológicas y asegurar que
-los patrones identificados no dependen de un único producto.
+evaluar la <b>robustez de los resultados</b> frente a diferencias metodológicas y asegurar
+que los patrones identificados no dependen de un único producto.
+
+</div>
 
 
+<div style="
+background-color:#f7f7f7;
+border-left:5px solid #444;
+padding:14px;
+border-radius:4px;
+">
 
-### Bases de datos
+<b>Bases de datos</b><br><br>
 
-Para el análisis de la temperatura superficial del mar (SST) se utilizan dos productos
+Para el análisis de la temperatura superficial del mar (<b>SST</b>) se utilizan dos productos
 observacionales ampliamente empleados en estudios climáticos:
+<ul>
+  <li><b>HadISST</b>, con resolución espacial de <b>1° × 1°</b>.</li>
+  <li><b>ERSST</b>, con resolución espacial de <b>2° × 2°</b>.</li>
+</ul>
 
-- **HadISST**, con resolución espacial de **1° × 1°**.
-- **ERSST**, con resolución espacial de **2° × 2°**.
+Para la precipitación se emplean dos productos con distinta naturaleza (observacional y
+reanálisis), lo que permite evaluar la robustez de las señales atmosféricas:
+<ul>
+  <li><b>NOAA precipitation (PCP)</b>, con resolución espacial de <b>2.5° × 2.5°</b>.</li>
+  <li><b>NCEP–NCAR Reanalysis (precipitación)</b>, con resolución espacial de
+      <b>1.875° × 1.875°</b>.</li>
+</ul>
 
-Para la precipitación se emplean dos productos con distinta naturaleza (observacional y reanálisis),
-lo que permite evaluar la robustez de las señales atmosféricas:
-
-- **NOAA precipitation (PCP)**, con resolución espacial de **2.5° × 2.5°**.
-- **NCEP–NCAR Reanalysis (precipitación)**, con resolución espacial de **1.875° × 1.875°**.
-
-El período de estudio abarca **1960–2020**, seleccionado por la mayor calidad y
+El período de estudio abarca <b>1960–2020</b>, seleccionado por la mayor calidad y
 homogeneidad de los registros observacionales.
+
+</div>
 
 
 
