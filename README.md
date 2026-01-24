@@ -77,28 +77,8 @@ presenta valores cercanos a −1.8&nbsp;°C que distorsionan la media y los cál
 Para el cálculo de la temperatura media en cada región se ha utilizado inicialmente
 la media directa de la matriz de datos.
 No obstante, esta aproximación no es estrictamente correcta, ya que el área representada por cada celda
-depende de la latitud.
-La forma físicamente correcta de calcular la media espacial es ponderar cada celda
-por el coseno de la latitud, de acuerdo con la expresión:
-</div>
-
----
-
-$$
-\overline{T}
-=
-\frac{\sum_{\varphi,\lambda} T(\varphi,\lambda)\,\cos(\varphi)}
-     {\sum_{\varphi,\lambda} \cos(\varphi)}
-$$
-
----
-
-<div style="
-background-color:#f7f7f7;
-border-left:5px solid #444;
-padding:14px;
-border-radius:4px;
-">
+depende de la latitud. La forma físicamente correcta de calcular la media espacial es ponderar cada celda
+por el coseno de la latitud.
 Esta ponderación es necesaria porque la Tierra es una esfera y el área de las celdas disminuye con la latitud.
 Para latitudes bajas, como las consideradas en este estudio, el error cometido al no aplicar esta corrección
 es muy reducido (del orden del <b>0.5&nbsp;%</b>), por lo que la aproximación resulta aceptable.
@@ -394,59 +374,16 @@ Este enfoque permite profundizar en la detección y caracterización de estos ev
 de forma robusta y consistente.
 </div>
 
----
 
-<div style="
-background-color:#f7f7f7;
-border-left:5px solid #444;
-padding:14px;
-border-radius:4px;
-">
-<b>Definición de funciones auxiliares</b><br><br>
 
-En esta sección se definen las funciones que se utilizarán en los bloques posteriores del análisis.
-Estas funciones permiten extraer anomalías de SST, evaluar la ocurrencia de eventos Niño
-y caracterizar su intensidad de forma sistemática.
-<br><br>
 
-<b>Extracción y agregación de anomalías</b><br>
-La función <b>anoms_year</b> se utiliza para extraer las anomalías correspondientes a un año específico.
-Posteriormente, mediante <b>mensual_region</b>, se calcula la media mensual de dichas anomalías
-en una región concreta. La función <b>niño_monthly_series</b> combina ambas operaciones y devuelve
-las series temporales correspondientes a las dos bases de datos empleadas (<b>HADISST</b> y <b>ERSST</b>),
-permitiendo seleccionar simultáneamente la región y el año de interés.
-Las anomalías anuales así obtenidas resultan útiles para la representación de años concretos
-y para la comparación entre distintos episodios de cada fenómeno.
-<br><br>
 
-<b>Detección de eventos Niño</b><br>
-Se define un conjunto de funciones orientadas a evaluar si un determinado período cumple
-las condiciones necesarias para ser considerado un evento Niño.
-La función <b>runs</b> permite identificar secuencias consecutivas que satisfacen un umbral dado.
-<br><br>
 
-Para el caso del ENSO, se adopta la convención del <b>ONI (Oceanic Niño Index)</b> definida por la NOAA:
-<ul>
-<li><b>Umbral:</b> anomalía ≥ 0.5&nbsp;°C en la región Niño&nbsp;3.4.</li>
-<li><b>Duración:</b> al menos 5 trimestres móviles consecutivos (medias solapadas de 3 meses).</li>
-</ul>
-Las medias móviles de tres meses se calculan mediante la función <b>three_month_running</b>,
-y posteriormente se aplica <b>runs</b> para verificar el cumplimiento del criterio temporal.
-<br><br>
-
-En el caso del <b>Niño Atlántico</b>, al tratarse de un fenómeno menos persistente e intenso,
-se considera suficiente que se registren <b>al menos tres meses consecutivos</b> con anomalías
-superiores a <b>0.4&nbsp;°C</b> en la región ATL3. En este caso, la función <b>runs</b> se aplica
-directamente sobre las anomalías mensuales, sin necesidad de medias móviles.
-<br><br>
 
 <b>Caracterización de la intensidad del evento</b><br>
-Finalmente, se definen dos funciones destinadas a calcular la <b>media</b> y la
-<b>desviación estándar</b> de las anomalías para una selección específica de meses.
-Se consideran los meses de máxima intensidad de cada fenómeno:
+
 <b>JJ</b> (junio–julio) para el Niño Atlántico y <b>ND</b> (noviembre–diciembre) para el Niño del Pacífico,
 en cada año y región.
-<br><br>
 
 La relación entre la media de anomalías en los meses de pico y la desviación estándar
 (interanual) se utiliza para calcular un índice estandarizado <b>Z</b>, que permite evaluar
@@ -460,8 +397,6 @@ Se adopta la siguiente clasificación:
 <li><b>Z ≥ 1.5:</b> evento fuerte.</li>
 </ul>
 
-Una función adicional permite clasificar automáticamente los eventos en función
-del valor de <b>Z</b>.
 </div>
 
 ---
@@ -516,17 +451,14 @@ padding:14px;
 border-radius:4px;
 ">
 
-<b>Visualización y caracterización de eventos Pacific Niño</b><br><br>
+<b>Metodlogia para eventos Pacific Niño</b><br><br>
 
-Esta función se utiliza para representar las <b>anomalías medias mensuales</b> de la región
-<b>Niño&nbsp;3.4</b> en un año concreto, donde se desarrolla el fenómeno de <b>Pacific Niño</b>.
-Adicionalmente, se muestran los <b>trimestres móviles consecutivos</b>, que permiten evaluar
-si el año analizado cumple las condiciones necesarias para ser considerado un evento climático
-según el criterio del ONI.
-
-
-Además de determinar los eventos, la función permite estimar su
-<b>intensidad</b> a partir de los meses de máximo desarrollo
+Para el caso del ENSO, se adopta la convención del <b>ONI (Oceanic Niño Index)</b> definida por la NOAA:
+<ul>
+<li><b>Umbral:</b> anomalía ≥ 0.5&nbsp;°C en la región Niño&nbsp;3.4.</li>
+<li><b>Duración:</b> al menos 5 trimestres móviles consecutivos (medias solapadas de 3 meses).</li>
+</ul>
+Además de determinar los eventos, buscamos saber su <b>intensidad</b> a partir de los meses de máximo desarrollo
 (<b>noviembre–diciembre</b>), calculando la media de las anomalías en dichos meses y
 comparándola con su <b>desviación estándar interanual</b> en esos meses.
 De esta relación se obtiene el índice estandarizado <b>Z</b>, utilizado previamente para las funciones que clasifican la intensidad del evento.
@@ -758,22 +690,39 @@ padding:14px;
 border-radius:4px;
 ">
 
-<b>Visualización y caracterización de eventos Atlantic Niño</b><br><br>
+<b>Metodologia para eventos Atlantic Niño</b><br><br>
 
-Esta función se utiliza para representar las <b>anomalías medias mensuales</b> de la región
-<b>ATL3</b> en un año concreto, donde se desarrolla el fenómeno de <b>Atlantic Niño</b>.
-En este caso, un único año de entrada es suficiente, ya que el Atlantic Niño se caracteriza
-por presentar su máxima relevancia durante el <b>verano boreal del mismo año</b>.
-A diferencia del <b>Pacific Niño</b>, no se trata de un fenómeno interanual y su
-<b>duración típica es considerablemente menor</b>, además de mostrar una intensidad
-ligeramente inferior y un carácter más local, como se ha discutido en apartados anteriores.
+El <b>Atlantic Niño</b> se caracteriza por presentar su máxima relevancia durante el
+<b>verano boreal</b>, a diferencia del <b>Pacific Niño</b>, que es un fenómeno de naturaleza
+<b>interanual</b>. El Niño Atlántico no solo presenta una <b>duración considerablemente menor</b>,
+sino que también muestra una <b>intensidad ligeramente inferior</b> y un <b>carácter más local</b>,
+tal como se ha discutido en apartados anteriores.
+
+En el caso del <b>Niño Atlántico</b>, al tratarse de un fenómeno menos persistente e intenso,
+se considera suficiente que se registren <b>al menos tres meses consecutivos</b> con anomalías
+superiores a <b>0.4 °C</b> en la región <b>ATL3</b>.
 <br><br>
 
 Dado que no es necesario el uso de medias móviles trimestrales, la representación de las
-<b>anomalías mensuales</b> resulta suficiente para identificar el evento.
-Asimismo, con el fin de evaluar si el año analizado corresponde a un <b>evento canónico</b>,
-se incluye la representación de la <b>variabilidad climática característica</b> de la región,
-previamente analizada en secciones anteriores.
+<b>anomalías mensuales</b> resulta adecuada para la identificación del evento.
+Además, se incluye la representación de la <b>variabilidad climática característica</b> de la
+región, previamente analizada en secciones anteriores. Desde un punto de vista cualitativo,
+se espera que, en presencia de un evento, la forma del gráfico reproduzca dicha variabilidad,
+pero con una señal térmica claramente destacada durante los meses de máximo desarrollo.
+
+Para caracterizar la <b>intensidad</b> del episodio, se considera la media de las anomalías
+en los meses de máximo desarrollo (<b>junio–julio</b>). Al compararla con la
+<b>desviación estándar interanual</b> correspondiente a esos mismos meses, se obtiene el
+índice estandarizado <b>Z</b>, que permite cuantificar de forma objetiva la magnitud del evento.
+<br><br>
+
+Adicionalmente, dado que el Atlantic Niño es un fenómeno <b>más local y mucho menos influyente</b>
+que el <b>ENSO</b>, se introduce una condición adicional: la <b>independencia respecto al ENSO</b>.
+Esto implica que debe comprobarse explícitamente la ausencia de un ENSO activo durante el mismo
+período de observación. En caso contrario, aun cuando el episodio cumpla los criterios térmicos
+y temporales establecidos, el calentamiento observado en el Atlántico debe interpretarse como
+una <b>respuesta inducida o modulada por el ENSO</b>, y no como un <b>Atlantic Niño propiamente dicho</b>.
+<br><br>
 </div>
 
 ---
