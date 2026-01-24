@@ -718,6 +718,7 @@ Esto implica que debe comprobarse explícitamente la ausencia de un ENSO activo 
 período de observación. En caso contrario, aun cuando el episodio cumpla los criterios térmicos
 y temporales establecidos, el calentamiento observado en el Atlántico debe interpretarse como
 una <b>respuesta inducida o modulada por el ENSO</b>, y no como un <b>Atlantic Niño propiamente dicho</b>.
+
 Todos estos cálculos —detección del evento, intensidad y valor de Z— se realizan de forma
 consistente para ambas bases de datos empleadas (<b>HADISST</b> y <b>ERSST</b>).
 
