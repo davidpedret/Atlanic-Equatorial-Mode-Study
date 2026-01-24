@@ -708,7 +708,7 @@ pero con una señal térmica claramente destacada durante los meses de máximo d
 
 Para caracterizar la <b>intensidad</b> del episodio, se considera la media de las anomalías
 en los meses de máximo desarrollo (<b>junio–julio</b>). Al compararla con la
-<b>desviación estándar interanual</b> correspondiente a esos mismos meses, se obtiene el
+<b>desviación estándar interanual</b> correspondiente a esos mismos meses se obtiene el
 índice estandarizado <b>Z</b>, que permite cuantificar de forma objetiva la magnitud del evento.
 <br><br>
 
