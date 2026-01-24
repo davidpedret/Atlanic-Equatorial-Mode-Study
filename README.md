@@ -382,9 +382,6 @@ de forma robusta y consistente.
 
 <b>Caracterización de la intensidad del evento</b><br>
 
-<b>JJ</b> (junio–julio) para el Niño Atlántico y <b>ND</b> (noviembre–diciembre) para el Niño del Pacífico,
-en cada año y región.
-
 La relación entre la media de anomalías en los meses de pico y la desviación estándar
 (interanual) se utiliza para calcular un índice estandarizado <b>Z</b>, que permite evaluar
 tanto la intensidad como la rareza del evento, una vez verificado que las distribuciones
