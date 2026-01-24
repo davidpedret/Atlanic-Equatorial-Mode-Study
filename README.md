@@ -2,23 +2,6 @@
 
 
 
----
-
-<div style="
-background-color:#f7f7f7;
-border-left:5px solid #444;
-padding:14px;
-border-radius:4px;
-">
-<b>Tabla de referencia para la selección de rangos</b><br><br>
-
-Esta tabla es necesaria para gestionar de forma coherente cada una de las bases de datos utilizadas.
-Actúa como una <b>guía metodológica</b> que permite seleccionar correctamente los distintos conjuntos
-de rangos espaciales y temporales empleados en el análisis.
-
-Dado que cada base de datos presenta diferencias en resolución espacial, cobertura y sistema de referencia,
-la utilización de esta tabla garantiza que los rangos escogidos sean consistentes y comparables entre productos.
-De este modo, se evitan errores derivados de una selección incorrecta de índices.
 
 Las dos bases de datos empleadas presentan rangos espaciales similares en latitud, pero utilizan
 convenciones distintas en longitud, lo que debe tenerse en cuenta para una correcta delimitación
