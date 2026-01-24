@@ -37,6 +37,7 @@ que los patrones identificados no dependen de un único producto.
 
 </div>
 
+---
 
 <div style="
 background-color:#f7f7f7;
