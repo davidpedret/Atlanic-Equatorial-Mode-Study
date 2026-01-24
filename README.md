@@ -494,7 +494,6 @@ con los máximos de la desviación estándar, independientemente del momento del
 produzcan. <b>Este enfoque alternativo no se realiza en la presente función</b> y se lo menciono únicamente
 como una posible extensión metodológica, especialmente relevante para eventos no canónicos
 o de duración prolongada.
-<br><br>
 
 Todos estos cálculos —detección del evento, intensidad y valor de Z— se realizan de forma
 consistente para ambas bases de datos empleadas (<b>HADISST</b> y <b>ERSST</b>).
@@ -719,7 +718,9 @@ Esto implica que debe comprobarse explícitamente la ausencia de un ENSO activo 
 período de observación. En caso contrario, aun cuando el episodio cumpla los criterios térmicos
 y temporales establecidos, el calentamiento observado en el Atlántico debe interpretarse como
 una <b>respuesta inducida o modulada por el ENSO</b>, y no como un <b>Atlantic Niño propiamente dicho</b>.
-<br><br>
+Todos estos cálculos —detección del evento, intensidad y valor de Z— se realizan de forma
+consistente para ambas bases de datos empleadas (<b>HADISST</b> y <b>ERSST</b>).
+
 </div>
 
 ---
