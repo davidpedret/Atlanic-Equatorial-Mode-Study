@@ -1,37 +1,47 @@
-# Atlantic-Eq Mode Study
+# Atlantic Equatorial Mode Study
+
+El **Atlantic Equatorial Mode**, también conocido como **Atlantic Niño**, es un patrón de
+variabilidad climática caracterizado por anomalías positivas de la temperatura superficial
+del mar (SST) en el Atlántico ecuatorial oriental. Aunque comparte ciertos mecanismos físicos
+con el **El Niño–Southern Oscillation (ENSO)** del Pacífico, el Atlantic Niño presenta una
+**menor intensidad**, una **duración más corta** y un **carácter marcadamente estacional y
+regional**.
+
+Este estudio tiene como objetivo **caracterizar observacionalmente el Atlantic Niño** y
+compararlo de forma sistemática con el **Pacific Niño**, analizando sus diferencias en
+estructura temporal, extensión espacial e impacto atmosférico. Para ello, se estudia la
+variabilidad mensual, la distribución espacial de las anomalías de SST y precipitación, y
+la relación entre ambos campos durante el período **1960–2020**.
+
+Un aspecto central del trabajo es la **definición robusta de criterios de identificación
+de eventos**, prestando especial atención a la estacionalidad característica del Atlantic
+Niño y a su **independencia respecto al ENSO**. Dado que el calentamiento global introduce
+una tendencia de fondo en las series de SST, se emplea un enfoque basado en **anomalías
+estacionales**, evitando sesgos hacia años recientes y garantizando una interpretación
+físicamente consistente de los episodios detectados.
+
+El análisis combina múltiples bases de datos observacionales y de reanálisis, permitiendo
+evaluar la **robustez de los resultados** frente a diferencias metodológicas y asegurar que
+los patrones identificados no dependen de un único producto.
 
 
 
+### Bases de datos
 
-Las dos bases de datos empleadas presentan rangos espaciales similares en latitud, pero utilizan
-convenciones distintas en longitud, lo que debe tenerse en cuenta para una correcta delimitación
-de las regiones de estudio.
+Para el análisis de la temperatura superficial del mar (SST) se utilizan dos productos
+observacionales ampliamente empleados en estudios climáticos:
 
-En latitud, los rangos son:
-<ul>
-<li><b>ERSST:</b> de −88° a 88°</li>
-<li><b>HadISST:</b> de −89.5° a 89.5°</li>
-</ul>
+- **HadISST**, con resolución espacial de **1° × 1°**.
+- **ERSST**, con resolución espacial de **2° × 2°**.
 
-En longitud, las diferencias son más relevantes:
+Para la precipitación se emplean dos productos con distinta naturaleza (observacional y reanálisis),
+lo que permite evaluar la robustez de las señales atmosféricas:
 
-<b>HadISST</b> utiliza una convención centrada en el meridiano de Greenwich, con longitudes comprendidas
-entre −179.5° y 179.5°, ordenadas de oeste a este:
+- **NOAA precipitation (PCP)**, con resolución espacial de **2.5° × 2.5°**.
+- **NCEP–NCAR Reanalysis (precipitación)**, con resolución espacial de **1.875° × 1.875°**.
 
-
-<b>ERSST</b>, en cambio, emplea una convención de 0° a 358°, también ordenada de oeste a este, donde el
-meridiano de Greenwich corresponde a 0° y 360° representa de nuevo el mismo meridiano:
-
-
-En el caso de <b>HadISST</b>, la interpretación de la longitud resulta directa.
-Sin embargo, en <b>ERSST</b> es fundamental tener en cuenta que el valor 0° corresponde al meridiano
-de Greenwich. Tener en cuenta esto es importante para la definición de áreas geográficas
-y, por tanto, en los cálculos espaciales posteriores.
-
-</div>
-
-
-</div
+El período de estudio abarca **1960–2020**, seleccionado por la mayor calidad y
+homogeneidad de los registros observacionales.
 
 
 
