@@ -69,9 +69,7 @@ homogeneity of the observational records.
 
 
 
----
 
-![SST_mean](img/1.png)
 
 ---
 
@@ -99,7 +97,9 @@ This keeps the repository portable while still allowing full reproducibility onc
 are placed in a consistent location.
 
 </div>
+---
 
+![SST_mean](img/1.png)
 ---
 
 <div style="
