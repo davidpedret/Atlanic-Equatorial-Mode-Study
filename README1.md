@@ -1,6 +1,6 @@
 # Atlantic Equatorial Mode (Atlantic Niño) – Observational Study
 
-## TL;DR
+## 
 This repository presents an observational analysis of the Atlantic Niño and its comparison with ENSO over the period 1960–2020.
 The focus is on seasonal variability, spatial structure, and ocean–atmosphere coupling.
 The Atlantic Niño is shown to be a regional, seasonal mode whose identification is highly sensitive to the methodological definition.
