@@ -94,6 +94,8 @@ Para reproducir el análisis:
 
 Esto mantiene el repositorio portable y permite la reproducibilidad una vez que los datos
 estén en una ubicación consistente.
+
+
 ---
 
 ![SST_mean](img/1.png)
