@@ -178,7 +178,7 @@ line-height:1.5;
 
 Como ya habíamos anticipado, la interpolación espacial no es estrictamente necesaria para las regiones de estudio consideradas. El área efectiva de cada celda depende del coseno de la latitud; dado que nuestras regiones se extienden como máximo hasta ±5°, este factor toma valores cercanos a 0.996. En consecuencia, el error relativo introducido por no ponderar el área es inferior al 0.4 % incluso en el peor de los casos.
 
-Este efecto no altera las tendencias estimadas y únicamente introduce diferencias muy pequeñas en los valores máximos, siempre inferiores a 0.1 °C. Aun así, y por consistencia metodológica, emplearemos definiciones de media ponderada por área y mantendremos el mismo criterio de selección de índices utilizado anteriormente.
+Este efecto no altera las tendencias estimadas y únicamente introduce diferencias muy pequeñas en los valores máximos, siempre inferiores a 0.05 °C. Aun así, y por consistencia metodológica, emplearemos definiciones de media ponderada por área y mantendremos el mismo criterio de selección de índices utilizado anteriormente.
 
 La selección directa por coordenadas resulta más sencilla y robusta que por indices, ya que evita depender de la estructura exacta de las coordenadas originales de cada conjunto de datos. Para homogeneizar todos los productos, utilizaremos la función <code>interp2d_to_target</code> para interpolar los campos a una malla común con las siguientes características:
 
