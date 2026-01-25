@@ -180,7 +180,7 @@ Como ya habíamos anticipado, la interpolación espacial no es estrictamente nec
 
 Este efecto no altera las tendencias estimadas y únicamente introduce diferencias muy pequeñas en los valores máximos, siempre inferiores a 0.1 °C. Aun así, y por consistencia metodológica, emplearemos definiciones de media ponderada por área y mantendremos el mismo criterio de selección de índices utilizado anteriormente.
 
-La selección directa por índices resulta más sencilla y robusta, ya que evita depender de la estructura exacta de las coordenadas originales de cada conjunto de datos. Para homogeneizar todos los productos, utilizaremos la función <code>interp2d_to_target</code> para interpolar los campos a una malla común con las siguientes características:
+La selección directa por coordenadas resulta más sencilla y robusta que por indices, ya que evita depender de la estructura exacta de las coordenadas originales de cada conjunto de datos. Para homogeneizar todos los productos, utilizaremos la función <code>interp2d_to_target</code> para interpolar los campos a una malla común con las siguientes características:
 
 <ul style="margin-top:8px;">
   <li>Longitud: −180° a 180°</li>
