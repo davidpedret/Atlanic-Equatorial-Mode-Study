@@ -83,6 +83,33 @@ padding:14px;
 border-radius:4px;
 ">
 
+<b>Preparación de datos (archivos externos)</b><br><br>
+
+El notebook espera que los datasets NetCDF estén disponibles localmente, pero los archivos son
+grandes (~500&nbsp;MB, 200&nbsp;MB, 80&nbsp;MB y 30&nbsp;MB), por lo que se mantienen
+<b>fuera</b> del repositorio para que los clones sean livianos.<br><br>
+
+Para reproducir el análisis:
+<ul>
+  <li>Descarga los cuatro datasets desde sus fuentes originales (HadISST, ERSST, NOAA PCP, NCEP–NCAR).</li>
+  <li>Guárdalos en una carpeta local (por ejemplo: <code>/ruta/a/datos/</code>).</li>
+  <li>Actualiza la variable <code>path</code> en <code>Notebook.ipynb</code> para apuntar a esa carpeta.</li>
+</ul>
+
+Esto mantiene el repositorio portable y permite la reproducibilidad una vez que los datos
+estén en una ubicación consistente.
+
+</div>
+
+---
+
+<div style="
+background-color:#f7f7f7;
+border-left:5px solid #444;
+padding:14px;
+border-radius:4px;
+">
+
 <b>Temperatura media anual y metodología de cálculo</b><br><br>
 Se muestran dos gráficas correspondientes a la temperatura media anual en las regiones del 
 <b>Atlantic Niño (ATL3)</b> y del <b>Pacific Niño (Niño 3.4)</b>.
