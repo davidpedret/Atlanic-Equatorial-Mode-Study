@@ -96,18 +96,15 @@ To reproduce the analysis:
 This keeps the repository portable while still allowing full reproducibility once the data
 are placed in a consistent location.
 
+
+---
+
+![SST_mean](img/1.png)
+
+---
 </div>
 
----
 
-<div style="
-background-color:#f7f7f7;
-border-left:5px solid #444;
-padding:14px;
-border-radius:4px;
-">
-  
----
 </div>
 <div style="
 background-color:#f7f7f7;
