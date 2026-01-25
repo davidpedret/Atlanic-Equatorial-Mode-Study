@@ -7,6 +7,8 @@ border-radius:4px;
 
 <h1>Atlantic Equatorial Mode Study</h1>
 
+<b>Introduction</b><br><br>
+
 The <b>Atlantic Equatorial Mode</b>, also known as <b>Atlantic Niño</b>, is a pattern of
 climate variability characterized by positive Sea Surface Temperature (<b>SST</b>) anomalies
 in the eastern equatorial Atlantic. Although it shares certain physical mechanisms with the
