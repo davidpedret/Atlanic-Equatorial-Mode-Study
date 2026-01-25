@@ -82,6 +82,33 @@ padding:14px;
 border-radius:4px;
 ">
 
+<b>Data setup (external files)</b><br><br>
+
+The notebook expects the NetCDF datasets to be available locally, but the raw files are large
+(~500&nbsp;MB, 200&nbsp;MB, 80&nbsp;MB, and 30&nbsp;MB), so they are intentionally kept
+<b>outside</b> the repository to keep clones lightweight.<br><br>
+
+To reproduce the analysis:
+<ul>
+  <li>Download the four datasets from their original sources (HadISST, ERSST, NOAA PCP, NCEP–NCAR).</li>
+  <li>Store them in a local folder (for example: <code>/path/to/data/</code>).</li>
+  <li>Update the <code>path</code> variable in <code>Notebook.ipynb</code> to point to your local folder.</li>
+</ul>
+
+This keeps the repository portable while still allowing full reproducibility once the data
+are placed in a consistent location.
+
+</div>
+
+---
+
+<div style="
+background-color:#f7f7f7;
+border-left:5px solid #444;
+padding:14px;
+border-radius:4px;
+">
+
 <b>Annual mean temperature and calculation methodology</b><br><br>
 Two graphs corresponding to the annual mean temperature in the 
 <b>Atlantic Niño (ATL3)</b> and <b>Pacific Niño (Niño 3.4)</b> regions are shown.
