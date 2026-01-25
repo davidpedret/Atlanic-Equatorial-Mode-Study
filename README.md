@@ -97,11 +97,18 @@ This keeps the repository portable while still allowing full reproducibility onc
 are placed in a consistent location.
 
 </div>
+
 ---
 
-![SST_mean](img/1.png)
+<div style="
+background-color:#f7f7f7;
+border-left:5px solid #444;
+padding:14px;
+border-radius:4px;
+">
+  
 ---
-
+</div>
 <div style="
 background-color:#f7f7f7;
 border-left:5px solid #444;
