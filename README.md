@@ -157,11 +157,7 @@ Similarly, in the initial calculation, direct grid indices were used instead of 
 exactly the geographic limits of each region.
 This may introduce small discrepancies, but given that the analyzed areas are large
 and are located close to the equator, the impact due to the change in latitude (selecting different latitude values because they are on our grid) is minimal. Furthermore, not studying the exact zones down to tenths of a degree is not a problem since meridional gradients near the equator are smooth.
-
-In the following cell, the calculation is repeated without any of these approximations
-(spatial interpolation of exact geographic limits and spatial mean weighted by the cosine of latitude)
-with the aim of quantitatively verifying that the introduced differences are negligible.
-</div>
+>
 
 ---
 
