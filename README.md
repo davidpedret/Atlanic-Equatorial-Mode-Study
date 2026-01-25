@@ -176,9 +176,9 @@ line-height:1.5;
 
 As we had already anticipated, spatial interpolation is not strictly necessary for the considered study regions. The effective area of each cell depends on the cosine of the latitude; given that our regions extend at most to ±5°, this factor takes values close to 0.996. Consequently, the relative error introduced by not weighting the area is less than 0.4 % even in the worst case.
 
-This effect does not alter the estimated trends and only introduces very small differences in maximum values, always less than 0.1 °C. Even so, and for methodological consistency, we will employ area-weighted mean definitions and maintain the same index selection criterion used previously.
+This effect does not modifies the estimated trends and only introduces very small differences in maximum values, always less than 0.05 °C. Even so, and for methodological consistency, we will employ area-weighted mean definitions and maintain the same index selection criterion as used in interpolated case.
 
-Direct selection by indices proves simpler and more robust, as it avoids depending on the exact structure of the original coordinates of each dataset. To homogenize all products, we will use the function <code>interp2d_to_target</code> to interpolate the fields to a common grid with the following characteristics:
+The direct selection by coordinates is simpler and more robust than selection by indices, as it avoids depending on the exact structure of the original coordinates of each dataset. To homogenize all products, we will use the function <code>interp2d_to_target</code> to interpolate the fields to a common grid with the following characteristics:
 
 <ul style="margin-top:8px;">
   <li>Longitude: −180° to 180°</li>
