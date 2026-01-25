@@ -6,8 +6,10 @@ border-radius:4px;
 ">
 
 <h1>Atlantic Equatorial Mode Study</h1>
-<br><br> 
-<br><br>
+
+
+
+
 <b>Introduction</b><br><br>
 ---
 The <b>Atlantic Equatorial Mode</b>, also known as <b>Atlantic Niño</b>, is a pattern of
