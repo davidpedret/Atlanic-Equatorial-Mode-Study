@@ -100,7 +100,7 @@ estén en una ubicación consistente.
 
 ![SST_mean](img/1.png)
 
----
+
 </div>
 
 ---
