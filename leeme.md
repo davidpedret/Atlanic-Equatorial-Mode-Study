@@ -5,7 +5,7 @@ padding:14px;
 border-radius:4px;
 ">
 
-<h1>Atlantic Equatorial Mode Study</h1>
+<h1>Estudio del modo ecuatorial atlántico</h1>
 
 
 
